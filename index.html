@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"> </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+
+    <title>Document</title>
+</head>
+<body>
+    <CENTER>
+        <header id="header">
+            <h1>Graph</h1>
+        </header>
+        <main>
+            
+            <div class = "Quantity">
+                <h4 id="Quantities">The</h1>
+            </div>
+            <div class="control-buttons">
+                <button id="startBtn">Start Simulator</button>
+                <button id="pauseBtn">Pause Simulator</button>
+                <button id="resetBtn">Reset Simulator</button>
+            </div>
+
+    <div class = "info_btns">
+    <input id="info_input1" placeholder="Atmospheric Pressure (P_atm)">
+    <input id="info_input2" placeholder="Gravitational acceleration (g)">
+    <input id="info_input3" placeholder="Rocket Mass">
+    <input id="info_input4" placeholder="Fuel Mass">
+    <input id="info_input5" placeholder="Rocket Fuel Amount">
+    <input id="info_input6" placeholder="Chamber Pressure (P)">
+    <input id="info_input7" placeholder="Initial Velocity">
+    <input id="info_input8" placeholder="Initial Altitude">
+    <input id="info_input9" placeholder="Rocket Angle">
+    <input id="info_input10" placeholder="Rocket Mass Flow Rate (r_m_per_s)">
+    <input id="info_input11" placeholder="Exhaust Velocity">
+    <input id="info_input12" placeholder="Wind Speed">
+    <input id="info_input13" placeholder="Rate of Fuel Burning">
+  </div>
+
+    <canvas id = "graph" class="canva" width="800" height="400"> </canvas>
+        
+    </CENTER>
+    <div class="copy_right_footer">
+        developed by CodeWhisperers
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
